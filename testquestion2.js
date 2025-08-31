@@ -10,7 +10,7 @@ function setup(){
 
 function draw(){
     background(250)
-    if(mouse.presses("left") ||mouse.presses("right")){
+    if(mouse.presses("left") || mouse.presses("right")){
         ball = new Sprite(mouse.x, mouse.y, 25, "dynamic")
         ball.bounciness = 0.5;
     }
